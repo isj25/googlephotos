@@ -1,0 +1,19 @@
+.sideDiv{
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    padding: 0.5rem;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.divText{
+    margin-left: 1.5rem;
+}
+
+
+
+.sideDiv:hover{
+    background-color: rgb(244, 241, 241);
+    cursor: pointer;
+}

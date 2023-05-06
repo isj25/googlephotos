@@ -1,0 +1,63 @@
+
+.topBarContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    padding: 1rem;
+}
+
+.logo p{
+    font-size: 1.5rem;
+    color: red;
+    margin: 0;
+}
+
+.searchBar{
+    padding: 0.7rem;
+    width: 60%;
+    height: 1.8rem;
+    background-color: hsla(330, 3%, 86%, 0.778);
+    border-radius: 10px;
+    display: flex;
+}
+.searchIcon{
+    margin: 0.2rem;
+}
+.inputText{
+    border: none;
+    width: 90%;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+
+.inputText:focus{
+outline: none;
+}
+
+.importButton{
+    text-transform: none !important;
+}
+
+
+.topRight{
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.profilePicture{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.topBarButton,
+.topBarHelp,
+.topBarSettings,
+.topBarDrag,
+.profilePicture{
+    margin: 0.4rem;
+}

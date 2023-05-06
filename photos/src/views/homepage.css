@@ -1,0 +1,13 @@
+.contentSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionBreak{
+    border-top: 0.8px solid gray;
+    height: 1px;
+}
+
+.topBar{
+    position: fixed;
+}

@@ -1,0 +1,35 @@
+.leftBarContainer{
+    width: 15%;
+    position: fixed;
+    padding-left: 1rem;
+}
+
+.sectionHeading{
+    font-size: 0.8rem;
+    margin: 1rem;
+}
+
+
+.progressBar{
+    width: 70%;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.storage{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.storageBox{
+    margin: auto;
+    padding: 1rem;
+}
+
+.getMoreStorage{
+    text-transform: none !important;
+}
+
+.storageButton{
+    padding-left: 1.2rem;
+}
